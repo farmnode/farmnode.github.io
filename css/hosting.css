@@ -206,13 +206,18 @@ a:hover, a:focus {
 	margin:25px 0;
 	float:left;
 }
-.features img {
+
+.features .icon {
 	float:left;
-	padding:10px 20px 0 0;
+	width: 80px;
+	height: 80px;
 }
-.features p {
-	padding-left: 80px;
+
+.features .glyphicons:before {
+	font-size: 60px;
+	color: #b7c1c9;
 }
+
 /*==========4. FEATURES LAYOUT==============*/
 
 .FeatLayout {
